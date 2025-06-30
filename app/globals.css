@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LAMMPS Syntax Highlighting */
+.lammps-keyword {
+  @apply text-blue-600 font-semibold;
+}
+
+.lammps-comment {
+  @apply text-green-600 italic;
+}
+
+.lammps-string {
+  @apply text-red-600;
+}
+
+.lammps-number {
+  @apply text-purple-600;
+}
+
+.lammps-variable {
+  @apply text-orange-600 font-medium;
+}
+
+.lammps-operator {
+  @apply text-gray-700;
+}
+
+.lammps-text {
+  @apply text-gray-800;
+}
+
+/* Code viewer styles */
+.lammps-code {
+  @apply font-mono text-sm leading-relaxed;
+}
