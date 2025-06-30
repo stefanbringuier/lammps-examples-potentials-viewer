@@ -383,10 +383,7 @@ const SearchInterface: React.FC = () => {
             </div>
             <div className="text-sm text-gray-500">
               Licensed under{" "}
-              <a
-                href="https://github.com/sbringuier/lammps-examples-potentials-viewer/blob/main/LICENSE"
-                className="text-gray-700 hover:underline"
-              >
+              <a href="https://github.com/sbringuier/lammps-examples-potentials-viewer/blob/main/LICENSE" className="text-gray-700 hover:underline">
                 GNU GPL v2
               </a>
             </div>

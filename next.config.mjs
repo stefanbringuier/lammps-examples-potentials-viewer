@@ -11,8 +11,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/lammpsexampleviewer' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/lammpsexampleviewer/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/lammps-examples-potentials-viewer' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/lammps-examples-potentials-viewer/' : '',
 }
 
 export default nextConfig
