@@ -7,8 +7,6 @@ import Fuse from "fuse.js"
 import { examples, potentials, type Example, type Potential } from "@/data/entries"
 import CodeViewer from "@/components/code-viewer"
 
-const BASE_GITHUB_URL = "https://github.com/lammps/lammps/tree/stable"
-
 const SearchInterface: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("")
   const [activeTab, setActiveTab] = useState<"examples" | "potentials">("examples")
