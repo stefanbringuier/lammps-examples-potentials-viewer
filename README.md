@@ -1,6 +1,8 @@
 # LAMMPS Examples & Potentials Text Viewer
+[![LAMMPS Potentials Viewer](https://img.shields.io/badge/LAMMPS-Potentials%20Viewer-blue?style=flat-square)](https://stefanbringuier.github.io/lammps-examples-potentials-viewer/)
+[![Deploy to GitHub Pages](https://github.com/stefanbringuier/lammps-examples-potentials-viewer/actions/workflows/deploy.yml/badge.svg)](https://github.com/stefanbringuier/lammps-examples-potentials-viewer/actions/workflows/deploy.yml) [![CI](https://github.com/stefanbringuier/lammps-examples-potentials-viewer/actions/workflows/ci.yml/badge.svg)](https://github.com/stefanbringuier/lammps-examples-potentials-viewer/actions/workflows/ci.yml)
 
-A simple, curated web interface for browsing and viewing [LAMMPS](https://lammps.org) example files and potential files from the repo.
+A simple, curated [web interface](https://stefanbringuier.github.io/lammps-examples-potentials-viewer/) for browsing and viewing [LAMMPS](https://lammps.org) example files and potential files from the repo.
 
 ## What it does
 
@@ -17,6 +19,9 @@ The viewer provides:
 - No advanced fuzzy search
 - No automatic updates from the LAMMPS repo
 - No rich descriptions
+
+
+![Screenshot](screengrab.png)
 
 ## Contributing
 
